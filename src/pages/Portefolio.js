@@ -3,9 +3,11 @@ import Navigation from '../components/Navigation';
 
 const Portefolio = () => {
   return (
-    <div>
+    <div className='portefolio'>
       <Navigation></Navigation>
-      <h1>Portefolio</h1>
+      <div className="portefolioContent">
+        <h1>Portefolio</h1>
+      </div>
     </div>
   );
 };

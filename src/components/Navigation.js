@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import Reseau from './Reseau';
 
 const Navigation = () => {
   return (
     <div className='sidebar'>
       <div className="id">
         <div className="idContent">
-          <img src="./media/portrait-2.jpg" alt="profil pic" style={{height: 150}} />
+          <img src="./media/portrait-2.jpg" alt="profil pic" style={{height: 100}} />
           <h3>Fabien Suhas</h3>
         </div>
       </div>
@@ -40,25 +41,7 @@ const Navigation = () => {
         </ul>
       </div>
 
-      <div className="socialNetwork">
-        <ul>
-          <li>
-            <a href="https://www.google.fr" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="https://www.google.fr" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="https://www.google.fr" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://www.google.fr" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
-          </li>
-        </ul>
-        <div className="signature">
-          <p>From Hissen - 2022</p>
-        </div>
-      </div>
+      <Reseau></Reseau>
 
     </div>
   );
