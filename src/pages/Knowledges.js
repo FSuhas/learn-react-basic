@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Knowledges = () => {
   return (
     <div>
-      <h1>Mes compétences</h1>
       <Navigation></Navigation>
+      <h1>Mes compétences</h1>
     </div>
   );
 };
