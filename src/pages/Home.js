@@ -3,9 +3,17 @@ import Navigation from '../components/Navigation';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <Navigation></Navigation>
-      <h1>Home page</h1>
+      <div className="homeContent">
+        <div className="content">
+          <h1>Fabien Suhas</h1>
+          <h2>Développeur Full-Stack</h2>
+          <div className="pdf">
+            <a href="./media/CV.pdf" target="_blank">Télécharger C.V</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
