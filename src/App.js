@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Knowledges from './pages/Knowledges';
 import Notfound from './pages/Notfound';
-import Portefolio from './pages/Portefolio';
+import Portfolio from './pages/Portfolio';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/competences" element={<Knowledges/>} />
-          <Route exact path="/portefolio" element={<Portefolio/>} />
+          <Route exact path="/portfolio" element={<Portfolio/>} />
           <Route path="*" element={<Notfound/>} />
         </Routes>
       </BrowserRouter>

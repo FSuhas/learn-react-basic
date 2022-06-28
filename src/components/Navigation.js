@@ -27,9 +27,9 @@ const Navigation = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/portefolio" activeClassName="navActive">
+            <NavLink exact to="/portfolio" activeClassName="navActive">
               <i className='fas fa-image'></i>
-              <span>Portefolio</span>
+              <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
